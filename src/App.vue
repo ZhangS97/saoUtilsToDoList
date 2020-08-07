@@ -1,39 +1,34 @@
 <template>
   <div id="app">
-    <div class="container">
+    <el-container>
+      <el-header>
+        <el-row :gutter="20">
+  <el-col :span="18">
+    <el-input v-model="inputField"
+                    @keyup.enter.native="addTodo"                  
+ placeholder="Todo Item"></el-input></el-col>
+  
+  <el-col :span="6"> <el-button @click="addTodo" type="primary">Add Todo</el-button></el-col>
+  
+</el-row>
+        
 
-      <section>
-        <div class="row justify-content-center mt-4">
-          <input
-            v-model="inputField"
-            v-on:keyup.enter="addTodo"
-            class="mr-1"
-            placeholder="Todo Item"
-          />
-          <button
-            @click="addTodo"
-            class="btn btn-primary"
-          >Add Todo</button>
-        </div>
-      </section>
-
-
-      <section class="container">
-        <div class="row">
-          <div class="offset-md-3 col-md-6 mt-3">
-            <ul class="list-group justify-content-center">
-              <li
-                class="row list-group-item border mt-2 col-xs-1"
-                v-for="todo in todoList"
-                :key="todo.id"
-              >
-                <div class="row align-items-center">
-                  <input
+  
+      </el-header>
+      <el-main>
+        <el-row :gutter="20"
+         v-for="todo in todoList"
+                :key="todo.id">
+                <el-col :span="6">
+                               <input
                     type="checkbox"
                     v-on:change="toggle(todo)"
                     v-bind:checked="todo.complete"
                     class="col-sm-1 border border-danger"
                   >
+                </el-col>
+
+<el-col :span="12">
                   <del
                     v-if="todo.complete"
                     class="col-sm-8"
@@ -46,18 +41,20 @@
                   >
                     <h5>{{ todo.name }}</h5>
                   </span>
-                  <span
-                    @click="deleteTodo(todo)"
-                    class="offset-sm-1 col-sm-2 delete text-right"
-                  >X</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+                </el-col>
 
-    </div>
+
+
+                 <el-col :span="6">
+                     <el-button type="success" icon="el-icon-check" @click="deleteTodo(todo)" circle></el-button>
+                 </el-col>
+
+        </el-row>
+        
+      </el-main>
+
+    </el-container>
+
   </div>
 </template>
 
