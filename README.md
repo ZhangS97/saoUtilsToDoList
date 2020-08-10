@@ -1,7 +1,5 @@
 # saoutilstodolist
 
-下一步计划添加标签页
-
 ## Project setup
 ```
 npm install
