@@ -760,7 +760,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1729,9 +1729,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 1013:
-/*!********************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/common/html-parser.js ***!
-  \********************************************************************/
+/*!*********************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/common/html-parser.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2092,9 +2092,9 @@ parseHtml;exports.default = _default;
 /***/ }),
 
 /***/ 1096:
-/*!****************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-icons/icons.js ***!
-  \****************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-icons/icons.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2234,9 +2234,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 11:
-/*!*************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/store/index.js ***!
-  \*************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/store/index.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2319,9 +2319,9 @@ store;exports.default = _default;
 /***/ }),
 
 /***/ 1104:
-/*!****************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-popup/popup.js ***!
-  \****************************************************************************/
+/*!*****************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-popup/popup.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2354,9 +2354,9 @@ var config = {
 /***/ }),
 
 /***/ 1105:
-/*!******************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-popup/message.js ***!
-  \******************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-popup/message.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2396,9 +2396,9 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ 13);
 /***/ }),
 
 /***/ 1286:
-/*!****************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-swipe-action-item/mpwxs.js ***!
-  \****************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-swipe-action-item/mpwxs.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2572,9 +2572,9 @@ if (hadRuntime) {
 /***/ }),
 
 /***/ 1303:
-/*!******************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-calendar/util.js ***!
-  \******************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-calendar/util.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2935,9 +2935,9 @@ Calendar;exports.default = _default;
 /***/ }),
 
 /***/ 1304:
-/*!**********************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/uni-calendar/calendar.js ***!
-  \**********************************************************************************/
+/*!***********************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/uni-calendar/calendar.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3492,9 +3492,9 @@ calendar;exports.default = _default;
 /***/ }),
 
 /***/ 1368:
-/*!********************************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/pages/template/component-communication/bus.js ***!
-  \********************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/pages/template/component-communication/bus.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4238,9 +4238,9 @@ new _vue.default();exports.default = _default;
 /***/ }),
 
 /***/ 140:
-/*!*********************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/common/graceChecker.js ***!
-  \*********************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/common/graceChecker.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -10818,7 +10818,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -10839,14 +10839,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -10931,7 +10931,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -11370,9 +11370,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 4:
-/*!*********************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/pages.json ***!
-  \*********************************************************/
+/*!**********************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/pages.json ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11381,9 +11381,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 471:
-/*!*******************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/common/permission.js ***!
-  \*******************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/common/permission.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11637,9 +11637,9 @@ module.exports = permission;
 /***/ }),
 
 /***/ 516:
-/*!*************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/common/util.js ***!
-  \*************************************************************/
+/*!**************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/common/util.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11719,9 +11719,9 @@ module.exports = {
 /***/ }),
 
 /***/ 897:
-/*!****************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/common/airport.js ***!
-  \****************************************************************/
+/*!*****************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/common/airport.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11988,9 +11988,9 @@ module.exports = {
 /***/ }),
 
 /***/ 984:
-/*!******************************************************************************!*\
-  !*** D:/Documents/HBuilderProjects/todolist/components/u-charts/u-charts.js ***!
-  \******************************************************************************/
+/*!*******************************************************************************!*\
+  !*** C:/Users/37619/Desktop/saoUtilsToDoList/components/u-charts/u-charts.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
