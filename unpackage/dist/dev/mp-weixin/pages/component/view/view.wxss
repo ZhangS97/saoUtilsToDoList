@@ -1,0 +1,15 @@
+
+.text {
+	margin: 15rpx 10rpx;
+	padding: 0 20rpx;
+	background-color: #ebebeb;
+	height: 70rpx;
+	line-height: 70rpx;
+	text-align: center;
+	color: #777;
+	font-size: 26rpx;
+}
+.desc {
+	/* text-indent: 40rpx; */
+}
+
